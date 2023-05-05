@@ -31,7 +31,7 @@ def get_country(city, api_key):
         return f"No results found for {city}"
 
 
-# skab et root widget for appen
+# byg et root widget for appen
 Builder.load_string('''
 <RootWidget>:
     orientation: 'horizontal'
@@ -51,7 +51,7 @@ Builder.load_string('''
             source: ''
     Image:
         id: image
-        source: ''
+        source: '' 
 ''')
 
 # skaber et widget for appen
